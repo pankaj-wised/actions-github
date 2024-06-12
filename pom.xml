@@ -191,7 +191,7 @@
 		</plugins>
 
 		<!-- Add the properties section here -->
-
+		<finalName>github-actions-springboot</finalName>
 
 
 	</build>
