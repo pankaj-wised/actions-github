@@ -18,7 +18,7 @@ ARG APP_VERSION=1.0.0
 
 
 WORKDIR /app
-COPY --from=build /build/target/auth-*.jar /app/
+COPY --from=build /build/target/github-actions-springboot-*.jar /app/
 
 EXPOSE 8082
 
