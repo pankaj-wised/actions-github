@@ -26,4 +26,4 @@ ENV DB_URL=jdbc:h2:mem:testes
 ENV ACTIVE_PROFILE=${APP_VERSION}
 ENV JAR_VERSION=${APP_VERSION}
 
-CMD java -jar -Dspring.profiles.active=${ACTIVE_PROFILE} -Dspring.datasource.url=${DB_URL} auth-${JAR_VERSION}.jar
+CMD java -jar -Dspring.profiles.active=${ACTIVE_PROFILE} -Dspring.datasource.url=${DB_URL} github-actions-springboot-${JAR_VERSION}.jar
